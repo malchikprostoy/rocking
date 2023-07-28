@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap");
+
+.comments{
+  margin-bottom: 80px;
+  h1{
+    text-align: center;
+    font-family: Montserrat Alternates;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    color: #263238;
+    span {
+      color: #2196F3;
+    }
+  }
+  .items {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .item{
+      width: 610px;
+      height: 301px;
+      margin-bottom: 20px;
+      padding: 20px 35px;
+      border-radius: 6px;
+      border: 1px solid #E7E8E7;
+      box-shadow: 0px 1px 10px #E7E8E7;
+      .itemInfo{
+        display: flex;
+        font-family: Montserrat Alternates;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        color: #263238;
+        .photo {
+          width: 50px;
+          height: 50px;
+        }
+        .itemInfoText {
+          margin-left: 20px;
+          margin-top: 3px;
+        }
+      }
+      .itemText{
+        width: 523px;
+        height: 181px;
+        margin: 5px 0px;
+        .stars {
+          width: 94px;
+          height: 15px;
+          margin: 5px 0px 10px 0px;
+        }
+        p {
+          line-height: 21px;
+          #more {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+

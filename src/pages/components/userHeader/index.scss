@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        .userHeader {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 75px;
+            .logo {
+                font-family: Montserrat Alternates;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 17px;
+                letter-spacing: 0.25em;
+                text-align: left;    
+                color: #263238;            
+            }
+            .nav {
+                display: flex;
+                gap: 30px;
+                a {
+                    position: relative;
+                    text-decoration: none;
+                    font-family: Montserrat Alternates;
+                    font-size: 13px;
+                    font-weight: 500;
+                    line-height: 16px;
+                    letter-spacing: 0.25em;
+                    text-align: center;
+                    color: #263238;     
+                    height: 17px;
+                    &::before {
+                        position: absolute;
+                        bottom: 0;
+                        content: "";
+                        width: 0%;
+                        height: 0px;
+                        transition: width 0.3s, height 0.3s, background-color 0.3s;
+                    }
+            
+                    &:hover::before {
+                        width: 90%;
+                        height: 1px;
+                        background: #2196f3;;
+                    }        
+                }
+                .active {
+                    color: #2196f3;
+                }
+            }
+            .user {
+                display: flex;
+                gap: 58px;
+                a {
+                    color: #263238;
+                }
+            }
+        }
+    }
+}

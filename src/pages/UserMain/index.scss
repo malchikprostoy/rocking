@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .userMain {
+        .search {
+            display: flex;
+            gap: 120px;
+            flex-direction: row;
+            &__left {
+                display: flex;
+                flex-direction: column;
+                gap: 14px;
+                width: 540px;
+                span {
+                    color: var(--blue, #2196F3);
+                    font-family: Montserrat Alternates;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: -0.14px;
+                    width: 419px;
+                }
+                h1 {
+                    color: var(--main, #263238);
+                    font-family: Montserrat Alternates;
+                    font-size: 36px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: -0.36px;
+                }
+            }
+            &__right {
+                display: flex;
+                gap: 20px;
+                flex-direction: column;
+                width: 600px;
+                label {
+                    color: var(--main, #263238);
+                    font-family: Montserrat Alternates;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: -0.22px;
+                }
+                .search__input {
+                    display: flex;
+                    border: 0.5px solid var(--stroke, #E7E8E7);
+                    border-radius: 5px;
+                    padding: 12px 10px 12px 20px;
+                    width: 600px;
+                    justify-content: space-between;
+                    background: #F5F5F5;
+                    .search__field {
+                        display: flex;
+                        border: 0;
+                        outline: 0;
+                        width: 600px;
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+        .searchAll {
+            display: flex;
+            gap: 120px;
+            flex-direction: row;
+            margin: 120px auto 202px;
+            &__left {
+                display: flex;
+                flex-direction: column;
+                gap: 14px;
+                width: 540px;
+                span {
+                    color: var(--main, #263238);
+                    font-family: Montserrat Alternates;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: -0.16px;
+                }
+                h1 {
+                    color: var(--main, #263238);
+                    font-family: Montserrat Alternates;
+                    font-size: 36px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: -0.36px;
+                }
+            }
+            &__right {
+                display: flex;
+                gap: 20px;
+                flex-direction: column;
+                width: 600px;
+                label {
+                    color: var(--main, #263238);
+                    font-family: Montserrat Alternates;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: -0.22px;
+                }
+                .search__input {
+                    display: flex;
+                    border: 0.5px solid var(--stroke, #E7E8E7);
+                    border-radius: 5px;
+                    padding: 12px 10px 12px 20px;
+                    width: 600px;
+                    justify-content: space-between;
+                    background: #F5F5F5;
+                    .search__field {
+                        display: flex;
+                        border: 0;
+                        outline: 0;
+                        width: 600px;
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+}

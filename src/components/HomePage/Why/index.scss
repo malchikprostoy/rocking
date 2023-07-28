@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap');
+
+.why {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-image: url(../../../assets/img/why_bg.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    h1{ 
+        font-family: Montserrat Alternates;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 59px;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: #263238;
+    }
+    span {
+        font-family: Montserrat Alternates;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;       
+        color: #263238; 
+    }
+    &__items {
+        display: flex;
+        flex-direction: row;
+        gap: 19px;
+        height: 40vh;
+        margin-top: 61px;
+        .why__item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 14px;
+            width: 266px;
+            &:nth-child(1) {
+                justify-content: end;
+            }
+            &:nth-child(2) {
+                justify-content: start;
+            }
+            &:nth-child(3) {
+                justify-content: end;
+            }
+            .item__text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 6px;
+                span {
+                    font-family: Montserrat Alternates;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 22px;
+                    letter-spacing: 0em;
+                    text-align: center;                 
+                    color: #263238;   
+                }
+                p {
+                    font-family: Montserrat Alternates;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 17px;
+                    letter-spacing: 0em;
+                    text-align: center;
+                    color: #263238;                    
+                }
+            }
+            img {
+                width: 130px;
+                height: 130px;
+            }
+        }
+    }
+}

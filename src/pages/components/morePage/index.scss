@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+.more {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .reg {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        background-color: #263238;
+        border-radius: 6px;
+        padding: 40px 66px 40px 80px;
+        h1 {
+            font-family: Montserrat Alternates;
+            font-size: 40px;
+            font-weight: 500;
+            line-height: 49px;
+            letter-spacing: 0em;
+            text-align: left;    
+            color: #fff;
+            width: 834px;        
+        }
+        span {
+            font-family: Montserrat Alternates;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #fff;            
+        }
+        &__add {
+            display: flex;
+            gap: 50px;
+            button {
+                width: 242px;
+                height: 45px;
+                font-family: Montserrat Alternates;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 17px;
+                letter-spacing: -0.01em;
+                background-color: #2196F3;     
+                color: #fff;           
+                border: none;
+                border-radius: 6px;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            span {
+                width: 450px;
+                font-family: Montserrat Alternates;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #fff;
+            }
+            .price {
+                display: flex;
+                gap: 5px;
+                width: 283px;
+                span {
+                    font-family: Montserrat Alternates;
+                    font-size: 50px;
+                    font-weight: 600;
+                    line-height: 61px;
+                    letter-spacing: 0.25em;
+                    color: #fff;
+                    width: 201px;
+                    height: 61px;                    
+                }
+                p {
+                    font-family: Montserrat Alternates;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0.25em;
+                    color: #A6A3A3;
+                    text-decoration: line-through;                    
+                }
+            }
+        }
+    }
+    .info {
+        display: flex;
+        gap: 80px;
+        margin-top: 39px;
+        margin-bottom: 50px;
+        &__text {
+            width: 735px;
+            height: 547px;
+            border-radius: 6px;
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 30px 101px 50px;
+            h1 {
+                font-family: Montserrat Alternates;
+                font-size: 25px;
+                font-weight: 600;
+                line-height: 30px;
+                letter-spacing: 0.25em;
+                text-align: left;                
+            }
+            span {
+                font-family: Montserrat Alternates;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 30px;
+                letter-spacing: 0.25em;
+                text-align: left;                
+            }
+        }
+        &__kurs {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            &-top {
+                width: 420px;
+                height: 255px;
+                border-radius: 6px;
+                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.46);
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                padding: 11px;
+                h1 {
+                    font-family: Montserrat Alternates;
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 24px;
+                    letter-spacing: 0.25em;
+                    text-align: left;                    
+                }
+                .item {
+                    display: flex;
+                    gap: 15px;
+                    span {
+                        font-family: Montserrat Alternates;
+                        font-size: 15px;
+                        font-weight: 400;
+                        line-height: 18px;
+                        letter-spacing: 0.25em;
+                        text-align: left;                        
+                    }
+                }
+            }
+            &-bottom {
+                border: 1px solid rgba(232, 232, 232, 1);
+                display: flex;
+                flex-direction: column;
+                padding: 17px;  
+                gap: 30px;
+                .top {
+                    display: flex;
+                    gap: 15px;
+                    .rep {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 11px;
+                        span {
+                            font-family: Open Sans;
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 19px;
+                            letter-spacing: 0em;
+                            text-align: left;                            
+                        }
+                        p {
+                            font-family: Open Sans;
+                            font-size: 14px;
+                            font-weight: 300;
+                            line-height: 19px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                            color: rgba(138, 138, 138, 1);                            
+                        }
+                    }
+                }
+                .bottom {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 4px;
+                    .items {
+                        display: flex;
+                        justify-content: space-between;
+                        span {
+                            font-family: Open Sans;
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 19px;
+                            letter-spacing: 0em;
+                            text-align: left;                            
+                        }
+                        .p {
+                            font-family: Open Sans;
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 19px;
+                            letter-spacing: 0em;
+                            text-align: left;                         
+                        }
+                        .span {
+                            font-family: Open Sans;
+                            font-size: 14px;
+                            font-weight: 600;
+                            line-height: 19px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                            color: rgba(255, 168, 0, 1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
